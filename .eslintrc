@@ -1,0 +1,9 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard"],
+  "globals": {
+    "atom": true,
+    "expect": true,
+    "waitsForPromise": true
+  },
+}

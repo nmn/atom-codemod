@@ -1,0 +1,19 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Run atom-codemod '
+      'submenu': [
+        {
+          'label': 'Wrap Flow Types in Comments'
+          'command': 'atom-codemod:flow-comment'
+        }
+        {
+          'label': 'Strip Flow Types'
+          'command': 'atom-codemod:flow-strip'
+        }
+      ]
+    ]
+  }
+]
