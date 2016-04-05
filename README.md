@@ -1,5 +1,15 @@
-# atom-codemod package
+# atom-codemod
 
-A short description of your package.
+A very straightforward package that wraps babel plugins in simple commands.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Currently, it is limited to flow type annotations.
+
+You can easily:
+1. Wrap all your flow types annotations in *flowtate* comments
+2. Strip all flow types from your code.
+
+The plugin simply works on the Currently active file. Even if it is unsaved.
+
+## Keyboard Short cuts.
+`ctrl-alt-f ctrl-alt-c`: Comment out flow annotations
+`ctrl-alt-f ctrl-alt-s`: Strip out flow annotations

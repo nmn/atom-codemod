@@ -11,12 +11,15 @@ declare var atom: {
   workspace: {
     getActiveTextEditor(): ?Editor;
   };
+  commands: {
+    add(context: string, commands: {[key: string]: Function}): Object;
+  };
 };
 
 declare module 'atom' {
   declare var Range: any;
   declare class CompositeDisposable {
-    add(context: string, commands: {[key: string]: Function}): void;
+    add(subs: Object): void;
     dispose(): void;
   }
 }

@@ -8,4 +8,5 @@
 # For more detailed documentation see
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 'atom-workspace':
-  'ctrl-alt-f, ctrl-alt-c': 'atom-codemod:toggle'
+  'ctrl-alt-f ctrl-alt-c': 'atom-codemod:flow-comment'
+  'ctrl-alt-f ctrl-alt-s': 'atom-codemod:flow-strip'
