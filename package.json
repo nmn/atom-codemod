@@ -1,5 +1,5 @@
 {
-  "name": "atom-codemod",
+  "name": "simple-codemod",
   "main": "./lib/index",
   "version": "0.0.0",
   "description": "A short description of your package",
