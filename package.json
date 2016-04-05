@@ -1,10 +1,10 @@
 {
-  "name": "simple-codemod",
+  "name": "atom-codemod",
   "main": "./lib/index",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [],
-  "repository": "https://github.com/atom/atom-codemod",
+  "repository": "https://github.com/nmn/atom-codemod",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
